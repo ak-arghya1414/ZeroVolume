@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live Campus Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Live Campus Hub</h1>
+        <p>Welcome back, Student</p>
+    </header>
+
+    <main>
+
+        <!-- Points Section -->
+        <section id="points-section">
+            <h2>Your Points</h2>
+            <p id="points-display">Points: 0</p>
+        </section>
+
+        <!-- Check-in Section -->
+        <section id="checkin-section">
+            <h2>Check In</h2>
+            <button onclick="checkIn('Library')">Check In at Library</button>
+            <button onclick="checkIn('Gym')">Check In at Gym</button>
+            <button onclick="checkIn('Student Union')">Check In at Student Union</button>
+            <p id="checkin-message"></p>
+        </section>
+
+        <!-- Events Section -->
+        <section id="events-section">
+            <h2>Upcoming Events</h2>
+            <ul id="events-list">
+                <li>Library Study Workshop - 2PM</li>
+                <li>Basketball Training - 5PM</li>
+                <li>Music Society Meeting - 6PM</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
